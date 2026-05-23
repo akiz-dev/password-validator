@@ -1,0 +1,110 @@
+	:root {
+		/* color pallete */
+		--bg-color: #FFF;
+		--bg-container: #F5F4ED;
+		--border-color: #DEDDDD;
+
+		--text-primary:#141413;
+		--text-secondary: #3D3D3A;
+		--color-placholder-text:#838383;
+
+		--low-color: #993C1D;
+		--medium-color: #854F0B;
+		--strong-color: #0F6E56;
+	}
+
+	/* __global resets__ */
+	* {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+
+	}
+
+	html,
+	body {
+		height: 100%;
+		background-color: #d4d4d4;
+		font-family: "Poppins", sans-serif;
+	}
+
+	.container {
+		background-color: var(--bg-color);
+		width: 100%;
+		max-width: 500px;
+		margin: auto;
+		padding: 24px;
+		border-radius: 4px;
+	}
+
+	.contents__wrapper {
+		background-color: var( --bg-container );
+		padding: 24px;
+		border-radius: 8px;
+
+		display: flex;
+		flex-flow: column nowrap;
+		gap: 10px;
+	}
+
+	.psw__wrapper,
+	#display {
+		background-color: var(--bg-color);
+		width: 80%;
+		margin: auto;
+		border: 1px solid var(--border-color);
+		border-radius: 8px;
+		padding: 10px;
+	}
+
+	.psw__wrapper {
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		padding: 10px;
+	}
+
+	.psw__wrapper #inputPsw {
+		border: none;
+		width: 100%;
+		outline: none;
+
+		color: var(--color-placholder-text);
+		font-size: 14px;
+	}
+
+
+	.psw__wrapper .fa-eye {
+		cursor: pointer;
+		
+	}
+
+	#display {
+		font-size: 12px;
+		color: var(--color-placholder-text);
+		/*white-space: pre-line;*/
+		/*padding-bottom: 30px;*/
+
+		position: relative;
+	}
+
+	.low__psw {
+		font-size: 15px;
+	}
+
+	/* aux classes */
+	.focus {
+		border: 1px solid dodgerblue;
+	}
+
+	.low {
+		color: var(--low-color) !important;
+	}
+
+	.strong {
+		color: var(--strong-color) !important;
+	}
+
+	.text__bold {
+		font-weight: 600;
+	}
