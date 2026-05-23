@@ -9,7 +9,7 @@ The project analyzes password strength in real time, displaying security criteri
 # 📸 Preview
 
 Simple, elegant, and intuitive interface for password validation.
-<a href="https://akiz-dev.github.io/password-validator/">Live Password Validator</a>
+[Password Validator]("https://akiz-dev.github.io/password-validator/")
 
 ### Visual Features
 - Show/Hide password 👁️
