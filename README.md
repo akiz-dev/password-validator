@@ -86,7 +86,7 @@ The password is analyzed based on the following criteria:
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/strong-password-validator.git
+git clone git@github.com:akiz-dev/password-validator.git
 ```
 
 ## 2. Access the project folder
