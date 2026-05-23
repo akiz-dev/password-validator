@@ -1,38 +1,40 @@
-````markdown
 # 🔐 Strong Password Validator
 
-A modern and responsive password validator built with HTML, CSS, and Vanilla JavaScript.  
-The project analyzes password strength in real time, displaying security criteria and dynamic visual feedback to enhance the user experience.
+A modern and responsive password validator built with **HTML**, **CSS**, and **Vanilla JavaScript**.
+
+The project analyzes password strength in real time, displaying security criteria and dynamic visual feedback to improve the user experience.
 
 ---
 
-# 📸 Preview
+## 📸 Preview
 
 Simple, elegant, and intuitive interface for password validation.
-[Password Validator](https://akiz-dev.github.io/password-validator)
-
-### Visual Features
-- Show/Hide password 👁️
-- Real-time feedback ⚡
-- Password strength indicators 🔒
-- Responsive interface 📱
 
 ---
 
-# 🚀 Features
+## ✨ Features
 
-✅ Real-time password validation  
-✅ Minimum character validation  
-✅ Uppercase letter verification  
-✅ Number verification  
-✅ Special symbol verification  
-✅ Visual password strength indicator  
-✅ Toggle password visibility  
-✅ Modern and responsive design  
+- ✅ Real-time password validation
+- ✅ Minimum character validation
+- ✅ Uppercase letter verification
+- ✅ Number verification
+- ✅ Special symbol verification
+- ✅ Visual password strength indicator
+- ✅ Toggle password visibility
+- ✅ Modern and responsive design
 
 ---
 
-# 🛠️ Technologies Used
+## 🎨 Visual Features
+
+- 👁️ Show / Hide password
+- ⚡ Real-time feedback
+- 🔒 Password strength indicators
+- 📱 Responsive interface
+
+---
+
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
@@ -42,7 +44,7 @@ Simple, elegant, and intuitive interface for password validation.
 
 ---
 
-# 📂 Project Structure
+## 📁 Project Structure
 
 ```bash
 strong-password-validator/
@@ -59,12 +61,12 @@ strong-password-validator/
 
 ---
 
-# 🎯 Validation Criteria
+## ✅ Validation Criteria
 
-The password is analyzed based on the following criteria:
+The password is analyzed based on the following rules:
 
-| Criteria | Status |
-|----------|--------|
+| Criteria | Required |
+|----------|----------|
 | Minimum of 8 characters | ✅ |
 | At least 1 uppercase letter | ✅ |
 | At least 1 number | ✅ |
@@ -72,31 +74,31 @@ The password is analyzed based on the following criteria:
 
 ---
 
-# 💡 Security Levels
+## 🔒 Security Levels
 
 | Level | Description |
 |------|-------------|
-| ✗ Low | Weak password |
-| ⚠ Medium | Medium-strength password |
-| 🔒 Strong Password | Strong password |
+| ❌ Low | Weak password |
+| ⚠️ Medium | Medium-strength password |
+| 🔐 Strong | Strong password |
 
 ---
 
 # 📦 How to Run the Project
 
-## 1. Clone the repository
+## 1️⃣ Clone the repository
 
 ```bash
 git clone git@github.com:akiz-dev/password-validator.git
 ```
 
-## 2. Access the project folder
+## 2️⃣ Access the project folder
 
 ```bash
 cd strong-password-validator
 ```
 
-## 3. Open the `index.html` file
+## 3️⃣ Open the `index.html` file
 
 You can open it directly in your browser or use an extension such as:
 
@@ -104,7 +106,7 @@ You can open it directly in your browser or use an extension such as:
 
 ---
 
-# 🧠 How It Works
+## ⚙️ How It Works
 
 JavaScript listens for typing events in the password input field:
 
@@ -112,7 +114,7 @@ JavaScript listens for typing events in the password input field:
 pswInput.addEventListener('keyup', validatePassword)
 ```
 
-On every key press, the function:
+On every key press, the application:
 
 - Checks password length
 - Identifies uppercase letters
@@ -122,7 +124,7 @@ On every key press, the function:
 
 ---
 
-# 🎨 Interface
+## 🎨 Interface
 
 The project uses:
 
@@ -133,33 +135,36 @@ The project uses:
 
 ---
 
-# 📱 Responsiveness
+## 📱 Responsiveness
 
 The interface was designed to work seamlessly on:
 
-- Desktop 💻
-- Tablet 📱
-- Smartphones 📲
+- 💻 Desktop
+- 📱 Tablet
+- 📲 Smartphones
 
 ---
 
-# 🔮 Future Improvements
+## 🚀 Future Improvements
 
-- Visual password strength bar
+- Password strength progress bar
 - Smooth animations
-- Dark/Light theme support
+- Dark / Light theme support
 - Repeated character validation
 - Backend integration
 - Automated tests
 
 ---
 
-# 🤝 Contribution
+## 🤝 Contribution
 
 Contributions are welcome!
 
+### Steps to contribute:
+
 1. Fork the project
-2. Create a branch:
+
+2. Create a new branch:
 
 ```bash
 git checkout -b my-feature
@@ -181,13 +186,12 @@ git push origin my-feature
 
 ---
 
-# 📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-Developed with dedication by Akiz 🚀
-````
+Developed with dedication by **Akiz** 🚀
