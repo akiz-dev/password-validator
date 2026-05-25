@@ -4,7 +4,6 @@
 const pswInput = document.querySelector('#inputPsw');
 const pswWrapper = document.querySelector('.psw__wrapper');
 const showHidePswBtn = document.querySelector('.fa-eye');
-const display = document.querySelector('#display');
 
 pswInput.addEventListener('focus', () => {
 	addFocusStyles()
